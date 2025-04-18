@@ -50,6 +50,81 @@ A **Truecaller clone** that demonstrates advanced integration of React Native an
 - Displays caller information and flags spam calls based on the number’s reputation.
 - Utilize the "Kill Mode" for advanced call screening and background task execution.
 
+
+## HOW TO RUN LOCALLY
+
+
+SETUP ENVIRONMENT GUIDE
+
+[﻿https://reactnative.dev/docs/set-up-your-environment?](https://reactnative.dev/docs/set-up-your-environment?) 
+
+## ✅ Environment Requirements
+- **Node.js**: `>=18.18.0` 
+ _(I Am using _`_v22.12.0_` _, which is compatible.)_
+- **JDK**: `17` 
+- **CLI**: Use **Bash** for all commands
+- android studio
+
+
+##  Environment Setup Guide
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Dinesh7571/Truecaller-clone-react-native
+cd Truecaller-clone-react-native
+```
+---
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+---
+
+### 3. Grant Permission to `gradlew` 
+In the project root directory, run:
+
+```bash
+chmod +x android/gradlew
+```
+---
+
+### 4. Run the App
+Run the following command to build and install the app on Android (this may take some time to generate native code):
+
+```bash
+npx react-native run-android
+```
+>  ⚠️ This command **may fail** the first time. If it does, continue to the next step. 
+
+---
+
+### 5. Start Metro Bundler (if previous step fails)
+```bash
+npx react-native start
+```
+Once the bundler is running, press:
+
+```
+a
+```
+>  This will launch the app on an **Android emulator or physical device**. 
+
+---
+
+### 📱 Using a Physical Android Device?
+- Make sure **USB debugging** is turned **ON** on your device.
+- Confirm your device is connected using:
+```bash
+adb devices
+```
+>  If your device is listed, you're good to go! 
+
+
+
+
+
+
+
 ## Contact
 Kannaujiya00000@gmail.com
 
